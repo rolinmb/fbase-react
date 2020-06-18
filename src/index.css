@@ -1,52 +1,64 @@
-body {
+#page-wrap {
 	margin:0;
 	padding:0;
-	background-color:#AF9FA5;
-}
-
-.header {
-	position:fixed;
-	top:0%;
-	height:75px;
+	height:100%;
 	width:100%;
-	background-color:#433E3F;
+	overflow:auto;
 }
 
-.header-text {
-	margin-top:0.55%;
-	font-size:48px;
-	color:#f2eee1;
+#header-wrap {
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	height:80px;
+	width:100%;
+	overflow:hidden;
+	background-color:#0C0032;
+}
+
+#header-text {
+	display:block;
 	text-align:center;
 }
 
-.App-container {
-	margin-top:75px;
-	padding-bottom:80px;
-	height:500px;
+#header-name {
+	font-size:48px;
+	color:#F2EEE1;
+	font-family:'Ubuntu';
+}
+
+#app-wrap {
+	position:absolute;
+	top:80px;
+	left:0px;
+	right:0px;
+	top:80px;
+	bottom:80px;
 	width:100%;
-	background-color:#9590A8;
+	background-color:#240090;
 }
 
-.App-text {
-	padding-top:10px;
-	padding-left:16px;
-	margin-top:74px;
-	font-size:24px;
-}
 
-.footer {
-	position:fixed;
-	bottom:0px;
-	height:70px;
+#footer-wrap {
+	position:absolute;
+	bottom:0;
+	left:0px;
+	right:0px;
+	height:80px;
 	width:100%;
-	background-color:#E7DFE8;
-	font-size:18px;
+	overflow:hidden;
+	background-color:#1F2329;
 }
 
-.footer-text {
-	margin-top:1.37%;
+#footer-text {
+	padding-top:25px;
 	padding-left:16px;
-	font-size:24px;
-	color:#433E3F;
 	text-align:left;
+}
+
+#footer-links {
+	font-size:24px;
+	color:#F2EEE1;
+	font-family:'Ubuntu';
 }
