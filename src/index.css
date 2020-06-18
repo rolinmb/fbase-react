@@ -1,8 +1,52 @@
-header {
-	text-align:center;
-	background-color:#f0f0f0;
+body {
+	margin:0;
+	padding:0;
+	background-color:#AF9FA5;
 }
 
-body {
-	background-color:#c5d5c5;
+.header {
+	position:fixed;
+	top:0%;
+	height:75px;
+	width:100%;
+	background-color:#433E3F;
+}
+
+.header-text {
+	margin-top:0.55%;
+	font-size:48px;
+	color:#f2eee1;
+	text-align:center;
+}
+
+.App-container {
+	margin-top:75px;
+	padding-bottom:80px;
+	height:500px;
+	width:100%;
+	background-color:#9590A8;
+}
+
+.App-text {
+	padding-top:10px;
+	padding-left:16px;
+	margin-top:74px;
+	font-size:24px;
+}
+
+.footer {
+	position:fixed;
+	bottom:0px;
+	height:70px;
+	width:100%;
+	background-color:#E7DFE8;
+	font-size:18px;
+}
+
+.footer-text {
+	margin-top:1.37%;
+	padding-left:16px;
+	font-size:24px;
+	color:#433E3F;
+	text-align:left;
 }
