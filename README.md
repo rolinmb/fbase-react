@@ -1,4 +1,4 @@
-This web-app is effectively a portfolio built with React.js<br />
+This web-app is effectively a portfolio built with React.js
 and deployed with Google Firebase Hosting<br />
 <hr />
 You can visit at:

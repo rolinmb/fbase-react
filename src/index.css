@@ -63,7 +63,7 @@ body {
 }
 
 #footer-links {
-	font-size:calc(12px + 0.95vw);
+	font-size:calc(11px + 0.95vw);
 	color:#F2EEE1;
 	font-family:'Ubuntu';
 }
