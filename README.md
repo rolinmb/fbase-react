@@ -1,22 +1,12 @@
-Built by Rolin Blake<br />
-
+This web-app is effectively a portfolio built with React.js<br />
+and deployed with Google Firebase Hosting<br />
+<hr />
 You can visit at:
 <ul><li>https://rmb-react.firebaseapp.com</li>
 <li>https://rmb-react.web.app</li></ul><br />
-## Available Scripts
-In the project directory, you can run:
-### `yarn start`
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) 
-### `yarn test`
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests)
-### `yarn build`
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-The build is minified and the filenames include the hashes.<br />
+
 This project was bootstrapped with create-react-app
 
-Last Updated 3:16 AM 6/18/2020
+Last Updated 7:02 PM 6/18/2020
 
 
