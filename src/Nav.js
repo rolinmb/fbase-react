@@ -5,7 +5,7 @@ export class Nav extends React.Component{
 		let b = document.getElementById(current);
 		let contents = document.getElementsByClassName("page-content");
 		let buttons = document.getElementsByClassName("nav-button");
-		if(buttons.length == contents.length){
+		if(buttons.length === contents.length){
 			for(let i=0;i<contents.length;i++){
 				contents[i].style.display = "none";
 				buttons[i].style.backgroundColor = document.getElementById("footer-wrap").style.color;
