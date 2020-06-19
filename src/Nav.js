@@ -1,7 +1,7 @@
 import React from 'react';
 
 export class Nav extends React.Component{
-	handleClick = (content,current,hColor,pColor,color3) => {
+	handleClick = (content,current,hColor,pColor) => {
 		let b = document.getElementById(current);
 		let contents = document.getElementsByClassName("page-content");
 		let buttons = document.getElementsByClassName("nav-button");
@@ -30,16 +30,16 @@ export class Nav extends React.Component{
 		return(
 			<div id="navbar-wrap">
 				<button class="nav-button" id="projectButton" onClick={
-					() => this.handleClick("projectsContent","projectButton","#1A2F70","#8900F2","")}>
+					() => this.handleClick("projectsContent","projectButton","#451DF5","#8900F2")}>
 					Projects
 				</button>
 				<button class="nav-button" id="expButton" onClick={
-					() => this.handleClick("experienceContent","expButton","#2F2A33","#6A00F4","")}>
+					() => this.handleClick("experienceContent","expButton","#2F2A33","#2D00F7")}>
 					Experience
 				</button>
-				<button class="nav-button" id="hobbyButton" onClick={
-					() => this.handleClick("hobbyContent","hobbyButton","#332336","#2D00F7","")}>
-					Hobbies
+				<button class="nav-button" id="contactButton" onClick={
+					() => this.handleClick("contactContent","contactButton","#8900F2","#6A00F4")}>
+					Contact
 				</button>
 			</div>
 		);

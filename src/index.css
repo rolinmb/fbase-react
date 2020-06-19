@@ -26,11 +26,12 @@ body {
 
 .header-content {
 	display:block;
-	text-align:center;
+	text-align:left;
 }
 
 .header-name {
-	font-size:48px;
+	padding-left:36px;
+	font-size:52px;
 	color:#F2EEE1;
 	font-family:'Ubuntu';
 }
@@ -63,7 +64,7 @@ body {
 	width:33.33%;
 	height:40px;
 	color:#DEE2E6;
-	background-color:#00059C;
+	background-color:#201C29;
 	cursor: pointer;
 	font-family:'Ubuntu';
 	font-size:max(1em,20px);
@@ -79,12 +80,11 @@ body {
 #content-wrap {
 	padding-top:24px;
 	padding-left:36px;
-	padding-right:
 }
 
 .page-content {
 	text-align:left;
-	color:#CBC0D3;
+	color:#F2EEE1;
 	font-family:'Mukta Vaani';
 }
 
@@ -94,10 +94,20 @@ body {
 	width:100%;
 }
 
+.content-subheader {
+	font-size:max(0.9vw,36px);
+	font-style:italic;
+	width:100%;
+}
+
 .content {
 	padding-top:36px;
 	padding-left:36px;
 	font-size:24px;
+}
+
+.content-list {
+	padding-left:min(2vw,56px);
 }
 
 #footer-wrap {
@@ -111,11 +121,11 @@ body {
 	height:80px;
 	width:100%;
 	overflow:hidden;
-	background-color:#00059C;
+	background-color:#201C29;
 }
 
 #footer-content {
-	padding-top:25px;
+	padding-top:20px;
 	padding-left:16px;
 	text-align:left;
 }
