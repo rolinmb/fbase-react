@@ -3,7 +3,7 @@ import React from 'react';
 export class Content extends React.Component{
 	render(){
 		return(
-			<div id="content-container">
+			<div id="content-wrap">
 				<div class="page-content" id="projectsContent">
 					<div class="content-header">Projects over the years...</div>
 					<p class="content">
@@ -11,7 +11,7 @@ export class Content extends React.Component{
 					</p>
 				</div>
 				<div class="page-content" id="experienceContent">
-					<div class="content-header">Work &<br />Experience</div>
+					<div class="content-header">Experience</div>
 					<p class="content">
 						Experience I have obtained
 					</p>
