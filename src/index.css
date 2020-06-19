@@ -52,6 +52,7 @@ body {
 }
 
 .nav-button {
+	border-radius:10px;
 	text-align:center;
 	border-bottom-width:5px;
 	border-left-width:2px;
@@ -67,13 +68,8 @@ body {
 }
 
 .nav-button:hover {
-	background-color:#1F2329;
+	background-color:#b6b5f7;
 	font-weight:bold;
-}
-
-.nav-button:active {
-	font-weight:bold;
-	border:none;	
 }
 
 #content-container {
