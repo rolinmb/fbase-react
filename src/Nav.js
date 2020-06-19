@@ -2,21 +2,21 @@ import React from 'react';
 
 export class Nav extends React.Component{
 	handleClick = (content,current,color) => {
-		let i, pagecontent, buttons;
-		let cb = document.getElementById(current);
-		pagecontent = document.getElementsByClassName("page-content"); // Get all content divs
-		for(i=0;i<pagecontent.length;i++){
-			pagecontent[i].style.display = "none"; // Hide all content
+		let i, contents, buttons;
+		let b = document.getElementById(current);
+		contents = document.getElementsByClassName("page-content");
+		for(i=0;i<contents.length;i++){
+			contents[i].style.display = "none"; // Hide
 		}
-		buttons = document.getElementsByClassName("nav-button");// Get all buttons
+		buttons = document.getElementsByClassName("nav-button");
 		for(i=0;i<buttons.length;i++){
-			if(cb !== buttons[i]){
-				buttons[i].style.backgroundColor = ""; //Change their background color to none
+			if(b !== buttons[i]){
+				buttons[i].style.backgroundColor = "#0C0032";
 			}
 		}
 		// Display the specified content
 		document.getElementById(content).style.display = "block";
-		cb.style.backgroundColor = color; // Change color of pressed button to color arg
+		b.style.backgroundColor = color; // Change color of pressed button to color arg
 	}
 		
 	render(){

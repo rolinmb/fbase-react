@@ -53,7 +53,9 @@ body {
 
 .nav-button {
 	text-align:center;
-	border-width:2px;
+	border-bottom-width:5px;
+	border-left-width:2px;
+	border-right-width:1px;
 	border-color:#0C0032;
 	width:33.33%;
 	height:40px;
@@ -67,6 +69,11 @@ body {
 .nav-button:hover {
 	background-color:#1F2329;
 	font-weight:bold;
+}
+
+.nav-button:active {
+	font-weight:bold;
+	border:none;	
 }
 
 #content-container {
@@ -84,6 +91,12 @@ body {
 	font-size:48px;
 	font-weight:bold;
 	width:100%;
+}
+
+.content {
+	padding-top:36px;
+	padding-left:36px;
+	font-size:24px;
 }
 
 #footer-wrap {
