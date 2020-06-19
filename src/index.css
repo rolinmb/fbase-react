@@ -45,7 +45,6 @@ body {
 	background-color:#240090;
 }
 
-
 #footer-wrap {
 	position:absolute;
 	bottom:0;
@@ -64,7 +63,7 @@ body {
 }
 
 #footer-links {
-	font-size:2vw;
+	font-size:calc(12px + 0.95vw);
 	color:#F2EEE1;
 	font-family:'Ubuntu';
 }
