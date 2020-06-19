@@ -1,6 +1,4 @@
 body {
-	margin:0;
-	padding:0;
 	background-color:#240090;
 }
 
@@ -34,6 +32,7 @@ body {
 	font-family:'Ubuntu';
 }
 
+
 #app-wrap {
 	position:absolute;
 	top:80px;
@@ -42,7 +41,33 @@ body {
 	top:80px;
 	bottom:80px;
 	width:100%;
+	overflow:auto;
 	background-color:#240090;
+}
+
+#navbar-container {
+	top:0px;
+	display:block;
+	width:100%;
+	height:40px;
+}
+
+.nav-button {
+	text-align:center;
+	border-width:2px;
+	border-color:#0C0032;
+	width:33.33%;
+	height:40px;
+	color:white;
+	background-color:#240090;
+}
+
+.nav-button:hover {
+	background-color:#1F2329;
+}
+
+.nav-button:focus {
+	
 }
 
 #footer-wrap {
