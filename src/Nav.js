@@ -22,8 +22,8 @@ export class Nav extends React.Component{
 	render(){
 		return(
 			<div id="navbar-container">
-				<button class="nav-button" id="eduButton" onClick={() => this.handleClick("educationContent","eduButton","#78416A")}>Education</button>
-				<button class="nav-button" id="workButton" onClick={() => this.handleClick("workContent","workButton","#5D4178")}>Work</button>
+				<button class="nav-button" id="projectButton" onClick={() => this.handleClick("projectsContent","projectButton","#78416A")}>Projects</button>
+				<button class="nav-button" id="expButton" onClick={() => this.handleClick("experienceContent","expButton","#5D4178")}>Experience</button>
 				<button class="nav-button" id="hobbyButton" onClick={() => this.handleClick("hobbyContent","hobbyButton","#473782")}>Hobbies</button>
 			</div>
 		);
