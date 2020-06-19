@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export class Nav extends React.Component{
+export class Nav extends Component{
 	handleClick = (content,current,hColor,pColor) => {
 		let b = document.getElementById(current);
 		let contents = document.getElementsByClassName("page-content");

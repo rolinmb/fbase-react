@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export class Experience extends React.Component{
+export class Experience extends Component{
 	render(){
 		return(
 			<div class="page-content" id="experienceContent">
