@@ -5,7 +5,7 @@ export class Header extends Component{
 		return(
 			<div id="header-wrap">
 				<div class="header-content">
-					<p class="header-name">Rolin Blake</p>
+					<p id="header-text">Rolin Blake</p>
 				</div>
 			</div>
 		);
