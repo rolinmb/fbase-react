@@ -79,7 +79,7 @@ body {
 
 #content-wrap {
 	padding-top:24px;
-	padding-left:28px;
+	padding-left:22px;
 	margin-right:16px;
 }
 
@@ -90,7 +90,7 @@ body {
 }
 
 .content-header {
-	font-size:max(1vw,52px);
+	font-size:54px;
 	font-weight:bold;
 	width:100%;
 }
@@ -116,9 +116,10 @@ body {
 	
 }
 
-.dependency-sublist {
+.sublist-content {
 	list-style:none;
-	font-size:min(0.75em,24px);
+	font-size:min(0.8em,24px);
+	margin-bottom:0;
 }
 
 .exp-list {

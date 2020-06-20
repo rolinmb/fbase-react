@@ -6,7 +6,7 @@ export class Projects extends Component{
 		return(
 			<div class="page-content" id="projectsContent">
 				<div class="content-header">
-					Things I've Developed
+					Tools of mine!
 				</div>
 				<p class="content">
 					<ProjectList />

@@ -10,8 +10,8 @@ export class InvestingList extends Component{
 						<i>Stock, foreign-exchange and cryptocurrency charting
 						using <a href="https://alphavantage.com">AlphaVantage's</a>&nbsp;API:</i>
 						<ul>
-							<li>Language: Python</li>
-							<li>Dependencies: alpha_vantage, Matplotlib, Pandas</li>
+							<li>Written with Python</li>
+							<li>Dependencies: <p class="sublist-content">alpha_vantage, Matplotlib, Pandas</p></li>
 							<li>Source code <a href="https://github.com/rolinmb/investing">here</a></li>
 						</ul>
 					</li>

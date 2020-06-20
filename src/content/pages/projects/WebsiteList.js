@@ -7,11 +7,11 @@ export class WebsiteList extends Component{
 				<u>Websites</u>	
 				<ul>
 					<li>
-						<i>I built this website over the course of a few weeks, as well as
-						am looking to comission others in the near future!</i>
+						<i>Freelance website building! I built this site myself and
+						am looking to comission more for friends/others in the near future!</i>
 						<ul>
-							<li>Languages: JavaScript, HTML, CSS</li>
-							<li>Dependencies: Node.js, React.js</li>
+							<li>Written in JavaScript, HTML & CSS</li>
+							<li>Dependencies: <p class="sublist-content">Node.js, React.js</p></li>
 							<li>Site source code <a href="https://github.com/rolinmb/fbase-react">here</a></li>
 						</ul>
 					</li>

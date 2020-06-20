@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import { App } from './App.js';
-import { Header } from './Header.js';
-import { Footer } from './Footer.js';
+import { Header } from './content/Header.js';
+import { Footer } from './content/Footer.js';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -18,6 +18,5 @@ ReactDOM.render(
 );
 
 // If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
+// unregister() to register() below.
 serviceWorker.unregister();
