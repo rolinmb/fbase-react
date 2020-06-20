@@ -17,12 +17,12 @@ export class Contact extends Component{
 					<br />
 					<br />
 					<ul class="contact-list">
-						<li>Email Address &nbsp; - <br />
+						<li><u>Email Address</u> &nbsp; <br />
 							<p class="contact-item">
 								rolin.blake@gmail.com
 							</p>
 						</li>
-						<li>Mobile Number &nbsp; -  <br />
+						<li><u>Text/Leave a Message at</u> &nbsp; <br />
 							<p class="contact-item">
 								331-422-9671
 							</p>

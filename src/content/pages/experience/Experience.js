@@ -13,8 +13,12 @@ export class Experience extends Component{
 					</div>
 					<br />
 					<ul class="exp-list">
-						<li>Internships</li>
-						<li>Courses</li>
+						<li>
+							<u>Internships</u>
+						</li>
+						<li>
+							<u>Coursework</u>
+						</li>
 					</ul>
 				</p>
 			</div>

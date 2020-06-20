@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { ProjectList } from './ProjectList.js';
+import { WebsiteList } from './WebsiteList.js';
+import { InvestingList } from './InvestingList.js';
+import { WebscrapingList } from './WebscrapingList.js';
 
 export class Projects extends Component{
 	render(){
@@ -9,7 +11,9 @@ export class Projects extends Component{
 					Tools of mine!
 				</div>
 				<p class="content">
-					<ProjectList />
+					<WebsiteList />
+					<InvestingList />
+					< WebscrapingList />
 				</p>
 			</div>
 		);
