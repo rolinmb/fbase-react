@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Projects } from './pages/Projects.js';
-import { Experience } from './pages/Experience.js';
-import { Contact } from './pages/Contact.js';
+import { Projects } from './pages/projects/Projects.js';
+import { Experience } from './pages/experience/Experience.js';
+import { Contact } from './pages/contact/Contact.js';
 
 export class Content extends Component{
 	render(){
