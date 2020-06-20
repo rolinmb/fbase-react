@@ -39,24 +39,10 @@ export class Nav extends Component{
 			"footerColor":"#000000",
 			"inactiveButtonColor":"#FF0066",
 			"btxtColor":"#F2EEE1",
-			"ptxtColor":"#e4e6ca",
-			"htxtColor":"#abb5cc",
-			"ftxtColor":"#abb5cc",
+			"ptxtColor":"#E4E6CA",
+			"htxtColor":"#E4E6CA",
+			"ftxtColor":"#ABB5CC",
 			"linksColor":"#A78CFF"
-		}
-		let projectsState = {
-			"contentId":"projectsContent",
-			"buttonId":"projectsButton",
-			"buttonColor":"#8ED3DE",
-			"pageColor":"#A9BCD0",
-			"headerColor":"#373F51",
-			"footerColor":"#C7CED1",
-			"inactiveButtonColor":"#C7CED1",
-			"btxtColor":"#373F51",
-			"ptxtColor":"#F2EEE1",
-			"htxtColor":"#F2EEE1",
-			"ftxtColor":"#F2EEE1",
-			"linksColor":"#0F1112"
 		}
 		let experienceState = {
 			"contentId":"experienceContent",
@@ -71,6 +57,20 @@ export class Nav extends Component{
 			"htxtColor":"#F2EEE1",
 			"ftxtColor":"#F2EEE1",
 			"linksColor":"#D9325A"
+		}
+		let projectsState = {
+			"contentId":"projectsContent",
+			"buttonId":"projectsButton",
+			"buttonColor":"#F5E4D3",
+			"pageColor":"#A9BCD0",
+			"headerColor":"#373F51",
+			"footerColor":"#C7CED1",
+			"inactiveButtonColor":"#CF9A65",
+			"btxtColor":"#373F51",
+			"ptxtColor":"#F2EEE1",
+			"htxtColor":"#F2EEE1",
+			"ftxtColor":"#F2EEE1",
+			"linksColor":"#0F1112"
 		}
 		let contactState = {
 			"contentId":"contactContent",
