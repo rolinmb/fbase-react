@@ -118,6 +118,7 @@ body {
 
 .dependency-sublist {
 	list-style:none;
+	font-size:min(0.75em,24px);
 }
 
 .exp-list {
