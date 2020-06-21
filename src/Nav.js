@@ -66,7 +66,7 @@ export class Nav extends Component{
 			"headerColor":"#373F51",
 			"footerColor":"#C7CED1",
 			"inactiveButtonColor":"#CF9A65",
-			"btxtColor":"#373F51",
+			"btxtColor":"#0F1112",
 			"ptxtColor":"#F2EEE1",
 			"htxtColor":"#F2EEE1",
 			"ftxtColor":"#F2EEE1",

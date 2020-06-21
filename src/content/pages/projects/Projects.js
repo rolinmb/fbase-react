@@ -13,7 +13,7 @@ export class Projects extends Component{
 				<p class="content">
 					<WebsiteList />
 					<InvestingList />
-					< WebscrapingList />
+					<WebscrapingList />
 				</p>
 			</div>
 		);

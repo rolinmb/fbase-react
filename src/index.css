@@ -63,9 +63,9 @@ body {
 	height:40px;
 	color:#DEE2E6;
 	background-color:#555B6E;
-	cursor: pointer;
+	cursor:pointer;
 	font-family:'Ubuntu';
-	font-size:max(1em,20px);
+	font-size:min(0.8em,20px);
 }
 
 .nav-button:hover {
