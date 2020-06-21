@@ -12,7 +12,7 @@ export class Experience extends Component{
 						Internships and education I have recieved:
 					</div>
 					<br />
-					<ul class="exp-list">
+					<ul class="page-list">
 						<li>
 							<u>Internships</u>
 						</li>

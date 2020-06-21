@@ -21,7 +21,7 @@ export class WebscrapingList extends Component{
 							<li>Written in Python and in JavaScript w/ HTML</li>
 							<li>
 								Dependencies: 
-								<ul>
+								<ul class="sublist">
 									<li><i>Python</i> - <p class="sublist-content">BeautifulSoup, Pandas</p></li>
 									<li><i>JavaScript</i> - <p class="sublist-content">Node.js, axios.js, cheerio.js, express.js, xlsx(sheetJS)</p></li>
 								</ul>

@@ -86,6 +86,10 @@ body {
 	font-family:'Mukta Vaani';
 }
 
+.page-list {
+	list-style:none;
+}
+
 .content-header {
 	font-size:54px;
 	font-weight:bold;
@@ -105,8 +109,11 @@ body {
 	font-size:24px;
 }
 
-.sublist-content {
+.sublist {
 	list-style:none;
+}
+
+.sublist-content {
 	font-size:min(0.8em,24px);
 	margin-bottom:0;
 }

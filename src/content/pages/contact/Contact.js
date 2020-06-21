@@ -16,7 +16,7 @@ export class Contact extends Component{
 					feel free to get in touch with me and we can get on it!
 					<br />
 					<br />
-					<ul class="contact-list">
+					<ul class="page-list">
 						<li><u>Email Address</u> &nbsp; <br />
 							<p class="contact-item">
 								rolin.blake@gmail.com

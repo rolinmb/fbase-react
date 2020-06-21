@@ -11,9 +11,11 @@ export class Projects extends Component{
 					Tools of mine!
 				</div>
 				<p class="content">
-					<WebsiteList />
-					<InvestingList />
-					<WebscrapingList />
+					<ul class="page-list">
+						<WebsiteList />
+						<InvestingList />
+						<WebscrapingList />
+					</ul>
 				</p>
 			</div>
 		);

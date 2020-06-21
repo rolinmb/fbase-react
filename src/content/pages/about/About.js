@@ -8,7 +8,7 @@ export class About extends Component{
 					Nice to meet you!
 				</div>
 				<p class="content">
-					<ul>
+					<ul class="page-list">
 						<li>
 							<u>Education</u>
 						</li>
