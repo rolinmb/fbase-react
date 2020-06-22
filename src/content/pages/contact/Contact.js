@@ -5,11 +5,11 @@ export class Contact extends Component{
 		return(
 			<div class="page-content" id="contactContent">
 				<div class="content-header">
-					Contact Information:
+					Contact Information
 				</div>
 				<p class="content">
 					<div class="content-subheader">
-						Need your own website?
+						Need some help on a project? Want your own portfolio website?
 					</div>
 					<br />
 					If you want your own website like this (even with a custom URL) or want to work together on some software,
