@@ -20,7 +20,7 @@ export class Experience extends Component{
 									I built software tools to help make work easier for other employees.<br /><br />
 								</li>
 								<li>
-									Mentioned in more detail on the 'Projects' page, the software I spent the most time on was an Excel file builder used for importing items onto Relia-Sources live database.
+									As mentioned on the 'Projects' page, the software I spent the most time on was an Excel file builder used for importing items onto Relia-Sources live database.
 									The Python script took a text file of <a href='https://www.idmedicaid.com/Reference/NDC%20Format%20for%20Billing%20PAD.pdf'>NDC Codes</a> as an input, then formatted a
 									query for <a href='https://ndclist.com'>ndclist.com</a> to pull up the coressponding drug information for each NDC. With the help of <a href='https://pypi.org/project/beautifulsoup4/'>BeautifulSoup</a>
 									, the webpage HTML content would then be scraped for necessary information needed to represent and build the item for customers to purchase from Relia-Soure's client portal.<br /><br />

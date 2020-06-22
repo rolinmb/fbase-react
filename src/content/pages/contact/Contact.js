@@ -12,8 +12,8 @@ export class Contact extends Component{
 						Need your own website?
 					</div>
 					<br />
-					If you want your own website like this, even with a custom URL,
-					feel free to get in touch with me and we can get on it!
+					If you want your own website like this (even with a custom URL) or want to work together on some software,
+					feel free to get in touch with me and we can get to work on something good!
 					<br />
 					<br />
 					<ul class="page-list">
