@@ -7,6 +7,6 @@ You can visit at:
 <hr />
 This project was bootstrapped with create-react-app
 
-Most recent deploy: ~1 PM CST 6/22/2020
+Most recent deploy: ~2:30 PM CST 6/22/2020
 
 
