@@ -42,7 +42,7 @@ export class Experience extends Component{
 								<li>
 									For web development, I primarily use React.js and traditional HTML/CSS for formatting and styling alongside some Bootrstap elements. I like to build sites from the ground up without any
 									sort of template. That's how I built this site! I've been using <a href='https://firebase.google.com'>Google Firebase</a> and the corresponding <a href='https://npmjs.com'>npm</a>&nbsp;
-									to deploy this site as well.<br /><br />
+									tool to deploy this site as well.<br /><br />
 								</li>
 								<li>
 									As far as develpoing environments, I use Windows primarily but am familiar with Linux (Ubuntu/Slackware) systems via virtual machines. I also use <a href='https://github.com/rolinmb'>GitHub</a> to host some
