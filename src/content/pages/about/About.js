@@ -8,7 +8,7 @@ export class About extends Component{
 					Nice to meet you!
 				</div>
 				<p class="content">
-					I'm a 23 year old software developer, matheatician and musician. I currently reside in the northern suburbs of Chicago, but spent the last 4 years in Iowa where I 
+					I'm a 23 year old software developer, matheatician and musician. I currently reside in the northern suburbs of Chicago, but spent 2016-2020 in Iowa where I 
 					recieved my Bachelors of Science in Mathematics alongside a Minor in Computer Science from Iowa State University. I am looking for opportunities in software
 					development and data; primarily where I have the ability to combine the two using my mathematics experience.
 					<br /><br />
